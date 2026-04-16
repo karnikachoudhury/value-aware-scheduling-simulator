@@ -1,29 +1,43 @@
-from workloads import make_balanced_workload, fifo_solos
-from schedulers import fifo, shortest_job_first, value_first, fragile_aware
-from simulator import run_simulation_loop
+# main.py
+
+from workloads import make_balanced_workload, make_database_workload, make_web_workload, make_ml_workload
+from simulator import run_simulation
+from fifo import FIFO
+from round_robin import RoundRobin
+from mlfq import MLFQ
+from linux_cfs import LinuxCFS
 
 
-def main():
-    jobs = fifo_solos()
+def run_workload(workload_name, jobs):
+    schedulers = [
+        FIFO(),
+        RoundRobin(),
+        MLFQ(quanta=(1, 2, 4), boost_interval=10),
+        LinuxCFS(),
+    ]
 
-    schedulers = {
-        "FIFO": fifo,
-        "Shortest Job First": shortest_job_first,
-        "Value First": value_first,
-        "Fragile Aware": fragile_aware,
-    }
+    print("-----------------")
+    print(f"WORKLOAD: {workload_name}")
+    print("-----------------")
 
-    for name, scheduler in schedulers.items():
-        print("\n" + "=" * 50)
-        print(f"Running scheduler: {name}")
-        print("=" * 50)
 
-        results = run_simulation_loop(jobs, scheduler, verbose=True)
+    for scheduler in schedulers:
+        print("\n")
+        print("**********************")
+        print(f"Scheduler: {scheduler.name}")
+        print("**********************")
 
-        print("\nResults:")
+        results = run_simulation(jobs, scheduler, verbose=False)
+
         for key, value in results.items():
             print(f"{key}: {value}")
 
+
+def main():
+    run_workload("Balanced", make_balanced_workload())
+    run_workload("Database", make_database_workload())
+    run_workload("Web", make_web_workload())
+    run_workload("ML", make_ml_workload())
 
 if __name__ == "__main__":
     main()

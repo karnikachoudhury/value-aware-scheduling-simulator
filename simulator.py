@@ -1,82 +1,111 @@
 from metrics import compute_results
 
-def run_simulation_loop (jobs, scheduler, verbose = True):
-    # copy jobs so references not fucked up
-    jobs_copy = []
+# initialize 
+def prepare_jobs(jobs):
+    sim_jobs = []
     for job in jobs:
-        jobs_copy.append({
+        sim_jobs.append({
             "id": job["id"],
             "arrival": job["arrival"],
             "work": job["work"],
             "remaining_work": job["work"],
-            "value": job["value"],
-            "effective_value": job["value"],
+            "importance": job["importance"],
+            "effective_importance": job["importance"],
             "fragility": job["fragility"],
-            "interruptions": 0,
-            "completed": False,
+            "preemption_cost": job.get("preemption_cost", 0),
             "completion_time": None,
+            "interruptions": 0,
+            "preemption_cost_incurred": 0,
+            "service_received": 0,
+            "vruntime": 0.0,
+            "weight": 1024,   # Linux-like default nice weight
         })
-    
+    return sim_jobs
+
+
+def run_simulation(jobs, scheduler, verbose=True):
+    sim_jobs = prepare_jobs(jobs)
+
     time_step = 0
     current_job = None
     total_interruptions = 0
     total_value_lost = 0
+    total_preemption_cost = 0
+    seen_arrivals = set()
 
-    unfinished_jobs = []
-    available_jobs = []
     while True:
-        # populate unfinished_jobs array
-        unfinished_jobs = []
-        for job in jobs_copy:
-            if job["remaining_work"] > 0:
-                unfinished_jobs.append(job)
+        # create arrays for unfinished and available jobs
+        unfinished_jobs = [job for job in sim_jobs if job["remaining_work"] > 0]
         if not unfinished_jobs:
             break
+        available_jobs = [
+            job for job in sim_jobs
+            if job["arrival"] <= time_step and job["remaining_work"] > 0
+        ]
 
-        # populate available jobs depending on arrival and if there is remaining work left
-        available_jobs = []
-        for job in jobs_copy:
-            if job["arrival"] <= time_step and job["remaining_work"] > 0:
-                available_jobs.append(job)
+        # notify scheduler of new arrivals
+        for job in available_jobs:
+            if job["id"] not in seen_arrivals:
+                scheduler.job_arrival(job, time_step)
+                seen_arrivals.add(job["id"])
+
         if not available_jobs:
             if verbose:
-                print(f"Time {time_step}: no jobs idle af")
+                print(f"t={time_step}: idle")
             time_step += 1
             continue
-    
-        # consider the next job from scheduler
-        next_job = scheduler(available_jobs, current_job, time_step)
 
-        # update interrupts and value lost
-        if current_job is not None and next_job is not None and current_job["id"] != next_job["id"]:
-            if current_job["remaining_work"] > 0:
-                current_job["interruptions"] += 1
-                total_interruptions += 1
-                
-                penalty = min(current_job["fragility"], current_job["remaining_work"])
-                current_job["effective_value"] -= penalty
-                total_value_lost += penalty
+        next_job = scheduler.select_job(available_jobs, current_job, time_step)
 
-                if verbose:
-                    print(f"t={time_step}: interrupted {current_job['id']}, " f"lost {penalty} value")
+        if next_job is None:
+            if verbose:
+                print(f"t={time_step}: idle")
+            time_step += 1
+            continue
+
+        # preemption 
+        if current_job is not None and current_job["id"] != next_job["id"] and current_job["remaining_work"] > 0:
+            current_job["interruptions"] += 1
+            total_interruptions += 1
+
+            # Apply fragility penalty to value
+            fragility_penalty = min(current_job["fragility"], current_job["effective_importance"])
+            current_job["effective_importance"] -= fragility_penalty
+            total_value_lost += fragility_penalty
+
+            # Apply preemption cost
+            preemption_penalty = current_job["preemption_cost"]
+            current_job["preemption_cost_incurred"] += preemption_penalty
+            total_preemption_cost += preemption_penalty
+
+            scheduler.job_preempted(current_job, time_step)
+
+            if verbose:
+                print(f"t={time_step}: interrupted {current_job['id']}, fragility penalty={fragility_penalty}, preemption cost={preemption_penalty}")
+
         current_job = next_job
 
-        if(current_job is not None):
-            current_job["remaining_work"] -= 1
+        # run a timestep
+        current_job["remaining_work"] -= 1
+        current_job["service_received"] += 1
+        scheduler.during_job_run(current_job, time_step)
+
+        if verbose:
+            print(
+                f"t={time_step}: running {current_job['id']} "
+                f"(remaining={current_job['remaining_work']})"
+            )
+
+        if current_job["remaining_work"] == 0:
+            current_job["completion_time"] = time_step + 1
+            scheduler.job_finish(current_job, time_step)
             if verbose:
-                print(f"t={time_step}: working on {current_job['id']}, " f"remaining work {current_job['remaining_work']}")
-            if(current_job["remaining_work"] == 0):
-                current_job["completed"] = True
-                current_job["completion_time"] = time_step
-                if verbose:
-                    print(f"t={time_step}: completed {current_job['id']}")
-                current_job = None
-        
+                print(
+                    f"t={time_step}: completed {current_job['id']} "
+                    f"with value {current_job['effective_importance']}"
+                )
+            current_job = None
+
         time_step += 1
-    return compute_results(jobs_copy, total_interruptions, total_value_lost, time_step)
-    
 
-
-            
-
-    
+    return compute_results(sim_jobs, total_interruptions, total_value_lost, total_preemption_cost, time_step)
