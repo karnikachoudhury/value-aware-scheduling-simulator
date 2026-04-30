@@ -1,0 +1,5479 @@
+{
+  "Database": {
+    "No Stealing": {
+      "jobs_completed": 5,
+      "work_completed": 23,
+      "value_completed": 140,
+      "total_interruptions": 0,
+      "total_value_lost": 0,
+      "total_migration_cost": 0,
+      "total_steals": 0,
+      "total_time": 23,
+      "weighted_completion_time": 2250,
+      "avg_response_time": 17.0,
+      "decision_log": [
+        {
+          "time": 0,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 14,
+          "benefit": 392,
+          "cost": 20.0,
+          "margin": 372.0,
+          "decision": false
+        },
+        {
+          "time": 0,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 14,
+          "benefit": 392,
+          "cost": 20.0,
+          "margin": 372.0,
+          "decision": false
+        },
+        {
+          "time": 0,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 14,
+          "benefit": 392,
+          "cost": 20.0,
+          "margin": 372.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 13,
+          "benefit": 390,
+          "cost": 20.0,
+          "margin": 370.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 13,
+          "benefit": 390,
+          "cost": 20.0,
+          "margin": 370.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 13,
+          "benefit": 390,
+          "cost": 20.0,
+          "margin": 370.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 12,
+          "benefit": 384,
+          "cost": 20.0,
+          "margin": 364.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 12,
+          "benefit": 384,
+          "cost": 20.0,
+          "margin": 364.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 12,
+          "benefit": 384,
+          "cost": 20.0,
+          "margin": 364.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 11,
+          "benefit": 374,
+          "cost": 20.0,
+          "margin": 354.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 11,
+          "benefit": 374,
+          "cost": 20.0,
+          "margin": 354.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 11,
+          "benefit": 374,
+          "cost": 20.0,
+          "margin": 354.0,
+          "decision": false
+        },
+        {
+          "time": 4,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 10,
+          "benefit": 360,
+          "cost": 20.0,
+          "margin": 340.0,
+          "decision": false
+        },
+        {
+          "time": 4,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 10,
+          "benefit": 360,
+          "cost": 20.0,
+          "margin": 340.0,
+          "decision": false
+        },
+        {
+          "time": 4,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 10,
+          "benefit": 360,
+          "cost": 20.0,
+          "margin": 340.0,
+          "decision": false
+        },
+        {
+          "time": 5,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 26,
+          "steal_amount_s": 9,
+          "benefit": 306,
+          "cost": 20.0,
+          "margin": 286.0,
+          "decision": false
+        },
+        {
+          "time": 5,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 26,
+          "steal_amount_s": 9,
+          "benefit": 306,
+          "cost": 20.0,
+          "margin": 286.0,
+          "decision": false
+        },
+        {
+          "time": 5,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 26,
+          "steal_amount_s": 9,
+          "benefit": 306,
+          "cost": 20.0,
+          "margin": 286.0,
+          "decision": false
+        },
+        {
+          "time": 6,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 24,
+          "steal_amount_s": 8,
+          "benefit": 256,
+          "cost": 20.0,
+          "margin": 236.0,
+          "decision": false
+        },
+        {
+          "time": 6,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 24,
+          "steal_amount_s": 8,
+          "benefit": 256,
+          "cost": 20.0,
+          "margin": 236.0,
+          "decision": false
+        },
+        {
+          "time": 6,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 24,
+          "steal_amount_s": 8,
+          "benefit": 256,
+          "cost": 20.0,
+          "margin": 236.0,
+          "decision": false
+        },
+        {
+          "time": 7,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 22,
+          "steal_amount_s": 7,
+          "benefit": 210,
+          "cost": 20.0,
+          "margin": 190.0,
+          "decision": false
+        },
+        {
+          "time": 7,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 22,
+          "steal_amount_s": 7,
+          "benefit": 210,
+          "cost": 20.0,
+          "margin": 190.0,
+          "decision": false
+        },
+        {
+          "time": 7,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 22,
+          "steal_amount_s": 7,
+          "benefit": 210,
+          "cost": 20.0,
+          "margin": 190.0,
+          "decision": false
+        },
+        {
+          "time": 8,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 20,
+          "steal_amount_s": 6,
+          "benefit": 168,
+          "cost": 20.0,
+          "margin": 148.0,
+          "decision": false
+        },
+        {
+          "time": 8,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 20,
+          "steal_amount_s": 6,
+          "benefit": 168,
+          "cost": 20.0,
+          "margin": 148.0,
+          "decision": false
+        },
+        {
+          "time": 8,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 20,
+          "steal_amount_s": 6,
+          "benefit": 168,
+          "cost": 20.0,
+          "margin": 148.0,
+          "decision": false
+        },
+        {
+          "time": 9,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 18,
+          "steal_amount_s": 5,
+          "benefit": 130,
+          "cost": 20.0,
+          "margin": 110.0,
+          "decision": false
+        },
+        {
+          "time": 9,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 18,
+          "steal_amount_s": 5,
+          "benefit": 130,
+          "cost": 20.0,
+          "margin": 110.0,
+          "decision": false
+        },
+        {
+          "time": 9,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 18,
+          "steal_amount_s": 5,
+          "benefit": 130,
+          "cost": 20.0,
+          "margin": 110.0,
+          "decision": false
+        },
+        {
+          "time": 10,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 16,
+          "steal_amount_s": 4,
+          "benefit": 96,
+          "cost": 20.0,
+          "margin": 76.0,
+          "decision": false
+        },
+        {
+          "time": 10,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 16,
+          "steal_amount_s": 4,
+          "benefit": 96,
+          "cost": 20.0,
+          "margin": 76.0,
+          "decision": false
+        },
+        {
+          "time": 10,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 16,
+          "steal_amount_s": 4,
+          "benefit": 96,
+          "cost": 20.0,
+          "margin": 76.0,
+          "decision": false
+        },
+        {
+          "time": 11,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 14,
+          "steal_amount_s": 3,
+          "benefit": 66,
+          "cost": 20.0,
+          "margin": 46.0,
+          "decision": false
+        },
+        {
+          "time": 11,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 14,
+          "steal_amount_s": 3,
+          "benefit": 66,
+          "cost": 20.0,
+          "margin": 46.0,
+          "decision": false
+        },
+        {
+          "time": 11,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 14,
+          "steal_amount_s": 3,
+          "benefit": 66,
+          "cost": 20.0,
+          "margin": 46.0,
+          "decision": false
+        },
+        {
+          "time": 12,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 12,
+          "steal_amount_s": 2,
+          "benefit": 40,
+          "cost": 20.0,
+          "margin": 20.0,
+          "decision": false
+        },
+        {
+          "time": 12,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 12,
+          "steal_amount_s": 2,
+          "benefit": 40,
+          "cost": 20.0,
+          "margin": 20.0,
+          "decision": false
+        },
+        {
+          "time": 12,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 12,
+          "steal_amount_s": 2,
+          "benefit": 40,
+          "cost": 20.0,
+          "margin": 20.0,
+          "decision": false
+        },
+        {
+          "time": 13,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 10,
+          "steal_amount_s": 1,
+          "benefit": 18,
+          "cost": 20.0,
+          "margin": -2.0,
+          "decision": false
+        },
+        {
+          "time": 13,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 10,
+          "steal_amount_s": 1,
+          "benefit": 18,
+          "cost": 20.0,
+          "margin": -2.0,
+          "decision": false
+        },
+        {
+          "time": 13,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 10,
+          "steal_amount_s": 1,
+          "benefit": 18,
+          "cost": 20.0,
+          "margin": -2.0,
+          "decision": false
+        },
+        {
+          "time": 14,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "q1",
+          "victim_load_x": 8,
+          "steal_amount_s": 2,
+          "benefit": 24,
+          "cost": 1.0,
+          "margin": 23.0,
+          "decision": false
+        },
+        {
+          "time": 14,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q1",
+          "victim_load_x": 8,
+          "steal_amount_s": 2,
+          "benefit": 24,
+          "cost": 1.0,
+          "margin": 23.0,
+          "decision": false
+        },
+        {
+          "time": 14,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q1",
+          "victim_load_x": 8,
+          "steal_amount_s": 2,
+          "benefit": 24,
+          "cost": 1.0,
+          "margin": 23.0,
+          "decision": false
+        },
+        {
+          "time": 15,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "q1",
+          "victim_load_x": 8,
+          "steal_amount_s": 1,
+          "benefit": 14,
+          "cost": 1.0,
+          "margin": 13.0,
+          "decision": false
+        },
+        {
+          "time": 15,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q1",
+          "victim_load_x": 8,
+          "steal_amount_s": 1,
+          "benefit": 14,
+          "cost": 1.0,
+          "margin": 13.0,
+          "decision": false
+        },
+        {
+          "time": 15,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q1",
+          "victim_load_x": 8,
+          "steal_amount_s": 1,
+          "benefit": 14,
+          "cost": 1.0,
+          "margin": 13.0,
+          "decision": false
+        },
+        {
+          "time": 16,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "q2",
+          "victim_load_x": 6,
+          "steal_amount_s": 2,
+          "benefit": 16,
+          "cost": 1.0,
+          "margin": 15.0,
+          "decision": false
+        },
+        {
+          "time": 16,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q2",
+          "victim_load_x": 6,
+          "steal_amount_s": 2,
+          "benefit": 16,
+          "cost": 1.0,
+          "margin": 15.0,
+          "decision": false
+        },
+        {
+          "time": 16,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q2",
+          "victim_load_x": 6,
+          "steal_amount_s": 2,
+          "benefit": 16,
+          "cost": 1.0,
+          "margin": 15.0,
+          "decision": false
+        },
+        {
+          "time": 17,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "q2",
+          "victim_load_x": 6,
+          "steal_amount_s": 1,
+          "benefit": 10,
+          "cost": 1.0,
+          "margin": 9.0,
+          "decision": false
+        },
+        {
+          "time": 17,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q2",
+          "victim_load_x": 6,
+          "steal_amount_s": 1,
+          "benefit": 10,
+          "cost": 1.0,
+          "margin": 9.0,
+          "decision": false
+        },
+        {
+          "time": 17,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q2",
+          "victim_load_x": 6,
+          "steal_amount_s": 1,
+          "benefit": 10,
+          "cost": 1.0,
+          "margin": 9.0,
+          "decision": false
+        },
+        {
+          "time": 18,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "q3",
+          "victim_load_x": 4,
+          "steal_amount_s": 2,
+          "benefit": 8,
+          "cost": 1.0,
+          "margin": 7.0,
+          "decision": false
+        },
+        {
+          "time": 18,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q3",
+          "victim_load_x": 4,
+          "steal_amount_s": 2,
+          "benefit": 8,
+          "cost": 1.0,
+          "margin": 7.0,
+          "decision": false
+        },
+        {
+          "time": 18,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q3",
+          "victim_load_x": 4,
+          "steal_amount_s": 2,
+          "benefit": 8,
+          "cost": 1.0,
+          "margin": 7.0,
+          "decision": false
+        },
+        {
+          "time": 19,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "q3",
+          "victim_load_x": 4,
+          "steal_amount_s": 1,
+          "benefit": 6,
+          "cost": 1.0,
+          "margin": 5.0,
+          "decision": false
+        },
+        {
+          "time": 19,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q3",
+          "victim_load_x": 4,
+          "steal_amount_s": 1,
+          "benefit": 6,
+          "cost": 1.0,
+          "margin": 5.0,
+          "decision": false
+        },
+        {
+          "time": 19,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q3",
+          "victim_load_x": 4,
+          "steal_amount_s": 1,
+          "benefit": 6,
+          "cost": 1.0,
+          "margin": 5.0,
+          "decision": false
+        },
+        {
+          "time": 20,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 2,
+          "benefit": 0,
+          "cost": 1.0,
+          "margin": -1.0,
+          "decision": false
+        },
+        {
+          "time": 20,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 2,
+          "benefit": 0,
+          "cost": 1.0,
+          "margin": -1.0,
+          "decision": false
+        },
+        {
+          "time": 20,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 2,
+          "benefit": 0,
+          "cost": 1.0,
+          "margin": -1.0,
+          "decision": false
+        },
+        {
+          "time": 21,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 1.0,
+          "margin": 1.0,
+          "decision": false
+        },
+        {
+          "time": 21,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 1.0,
+          "margin": 1.0,
+          "decision": false
+        },
+        {
+          "time": 21,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 1.0,
+          "margin": 1.0,
+          "decision": false
+        }
+      ],
+      "decision_summary": {
+        "opportunities": 66,
+        "accepted": 0,
+        "rejected": 66,
+        "bad_accepts": 0,
+        "bad_rejects": 60,
+        "avg_benefit": 148.63636363636363,
+        "avg_cost": 13.090909090909092,
+        "avg_margin": 135.54545454545453,
+        "accept_rate": 0.0
+      },
+      "potential_log": [
+        {
+          "time": 0,
+          "phi": 588.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 588.0,
+          "loads": [
+            28,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1,
+          "phi": 588.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 588.0,
+          "loads": [
+            28,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 2,
+          "phi": 588.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 588.0,
+          "loads": [
+            28,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 3,
+          "phi": 588.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 588.0,
+          "loads": [
+            28,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 4,
+          "phi": 588.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 588.0,
+          "loads": [
+            28,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 5,
+          "phi": 507.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 507.0,
+          "loads": [
+            26,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 6,
+          "phi": 432.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 432.0,
+          "loads": [
+            24,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 7,
+          "phi": 363.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 363.0,
+          "loads": [
+            22,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 8,
+          "phi": 300.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 300.0,
+          "loads": [
+            20,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 9,
+          "phi": 243.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 243.0,
+          "loads": [
+            18,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 10,
+          "phi": 192.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 192.0,
+          "loads": [
+            16,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 11,
+          "phi": 147.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 147.0,
+          "loads": [
+            14,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 12,
+          "phi": 108.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 108.0,
+          "loads": [
+            12,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 13,
+          "phi": 75.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 75.0,
+          "loads": [
+            10,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 14,
+          "phi": 48.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 48.0,
+          "loads": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 15,
+          "phi": 48.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 48.0,
+          "loads": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 16,
+          "phi": 27.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 27.0,
+          "loads": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 17,
+          "phi": 27.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 27.0,
+          "loads": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 18,
+          "phi": 12.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 12.0,
+          "loads": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 19,
+          "phi": 12.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 12.0,
+          "loads": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 20,
+          "phi": 3.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 3.0,
+          "loads": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 21,
+          "phi": 3.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 3.0,
+          "loads": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 22,
+          "phi": 0.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 0.0,
+          "loads": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "avg_potential": 238.56521739130434,
+      "max_potential": 588.0,
+      "final_potential": 0.0,
+      "avg_migration_cost_per_time": 0.0,
+      "avg_cost_aware_potential": 238.56521739130434,
+      "avg_timestep_cost_aware_potential": 238.56521739130434
+    },
+    "Always Stealing": {
+      "jobs_completed": 5,
+      "work_completed": 23,
+      "value_completed": 76,
+      "total_interruptions": 0,
+      "total_value_lost": 0,
+      "total_migration_cost": 64,
+      "total_steals": 7,
+      "total_time": 10,
+      "weighted_completion_time": 780,
+      "avg_response_time": 5.2,
+      "decision_log": [
+        {
+          "time": 0,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 14,
+          "benefit": 392,
+          "cost": 20.0,
+          "margin": 372.0,
+          "decision": true
+        },
+        {
+          "time": 1,
+          "idle_worker": 2,
+          "victim_worker": 1,
+          "job_id": "compaction",
+          "victim_load_x": 24,
+          "steal_amount_s": 12,
+          "benefit": 288,
+          "cost": 20.0,
+          "margin": 268.0,
+          "decision": true
+        },
+        {
+          "time": 1,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q1",
+          "victim_load_x": 14,
+          "steal_amount_s": 2,
+          "benefit": 48,
+          "cost": 1.0,
+          "margin": 47.0,
+          "decision": true
+        },
+        {
+          "time": 3,
+          "idle_worker": 3,
+          "victim_worker": 2,
+          "job_id": "compaction",
+          "victim_load_x": 12,
+          "steal_amount_s": 6,
+          "benefit": 72,
+          "cost": 20.0,
+          "margin": 52.0,
+          "decision": true
+        },
+        {
+          "time": 5,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "q2",
+          "victim_load_x": 5,
+          "steal_amount_s": 2,
+          "benefit": 12,
+          "cost": 1.0,
+          "margin": 11.0,
+          "decision": true
+        },
+        {
+          "time": 7,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 2,
+          "benefit": 0,
+          "cost": 1.0,
+          "margin": -1.0,
+          "decision": true
+        },
+        {
+          "time": 8,
+          "idle_worker": 0,
+          "victim_worker": 1,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 1.0,
+          "margin": 1.0,
+          "decision": true
+        }
+      ],
+      "decision_summary": {
+        "opportunities": 7,
+        "accepted": 7,
+        "rejected": 0,
+        "bad_accepts": 1,
+        "bad_rejects": 0,
+        "avg_benefit": 116.28571428571429,
+        "avg_cost": 9.142857142857142,
+        "avg_margin": 107.14285714285714,
+        "accept_rate": 1.0
+      },
+      "potential_log": [
+        {
+          "time": 0,
+          "phi": 196.0,
+          "migration_cost_so_far": 20,
+          "avg_migration_cost_per_time": 20.0,
+          "psi": 216.0,
+          "loads": [
+            14,
+            14,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1,
+          "phi": 75.0,
+          "migration_cost_so_far": 41,
+          "avg_migration_cost_per_time": 20.5,
+          "psi": 95.5,
+          "loads": [
+            12,
+            12,
+            12,
+            2
+          ]
+        },
+        {
+          "time": 2,
+          "phi": 130.0,
+          "migration_cost_so_far": 41,
+          "avg_migration_cost_per_time": 13.666666666666666,
+          "psi": 143.66666666666666,
+          "loads": [
+            11,
+            9,
+            18,
+            2
+          ]
+        },
+        {
+          "time": 3,
+          "phi": 12.0,
+          "migration_cost_so_far": 61,
+          "avg_migration_cost_per_time": 15.25,
+          "psi": 27.25,
+          "loads": [
+            10,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "time": 4,
+          "phi": 24.0,
+          "migration_cost_so_far": 61,
+          "avg_migration_cost_per_time": 12.2,
+          "psi": 36.2,
+          "loads": [
+            8,
+            2,
+            2,
+            4
+          ]
+        },
+        {
+          "time": 5,
+          "phi": 17.0,
+          "migration_cost_so_far": 62,
+          "avg_migration_cost_per_time": 10.333333333333334,
+          "psi": 27.333333333333336,
+          "loads": [
+            3,
+            2,
+            -1,
+            -2
+          ]
+        },
+        {
+          "time": 6,
+          "phi": 40.0,
+          "migration_cost_so_far": 62,
+          "avg_migration_cost_per_time": 8.857142857142858,
+          "psi": 48.85714285714286,
+          "loads": [
+            4,
+            2,
+            -2,
+            -4
+          ]
+        },
+        {
+          "time": 7,
+          "phi": 36.75,
+          "migration_cost_so_far": 63,
+          "avg_migration_cost_per_time": 7.875,
+          "psi": 44.625,
+          "loads": [
+            0,
+            2,
+            -3,
+            -6
+          ]
+        },
+        {
+          "time": 8,
+          "phi": 57.0,
+          "migration_cost_so_far": 64,
+          "avg_migration_cost_per_time": 7.111111111111111,
+          "psi": 64.11111111111111,
+          "loads": [
+            1,
+            1,
+            -4,
+            -8
+          ]
+        },
+        {
+          "time": 9,
+          "phi": 68.75,
+          "migration_cost_so_far": 64,
+          "avg_migration_cost_per_time": 6.4,
+          "psi": 75.15,
+          "loads": [
+            0,
+            0,
+            -5,
+            -10
+          ]
+        }
+      ],
+      "avg_potential": 65.65,
+      "max_potential": 196.0,
+      "final_potential": 68.75,
+      "avg_migration_cost_per_time": 6.4,
+      "avg_cost_aware_potential": 72.05000000000001,
+      "avg_timestep_cost_aware_potential": 77.8693253968254
+    },
+    "Cost-Aware Stealing": {
+      "jobs_completed": 5,
+      "work_completed": 23,
+      "value_completed": 117,
+      "total_interruptions": 0,
+      "total_value_lost": 0,
+      "total_migration_cost": 23,
+      "total_steals": 4,
+      "total_time": 11,
+      "weighted_completion_time": 1095,
+      "avg_response_time": 6.8,
+      "decision_log": [
+        {
+          "time": 0,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 14,
+          "benefit": 392,
+          "cost": 20.0,
+          "margin": 372.0,
+          "decision": false
+        },
+        {
+          "time": 0,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 14,
+          "benefit": 392,
+          "cost": 20.0,
+          "margin": 372.0,
+          "decision": false
+        },
+        {
+          "time": 0,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 14,
+          "benefit": 392,
+          "cost": 20.0,
+          "margin": 372.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "compaction",
+          "victim_load_x": 28,
+          "steal_amount_s": 13,
+          "benefit": 390,
+          "cost": 20.0,
+          "margin": 370.0,
+          "decision": true
+        },
+        {
+          "time": 1,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q1",
+          "victim_load_x": 15,
+          "steal_amount_s": 2,
+          "benefit": 52,
+          "cost": 1.0,
+          "margin": 51.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q1",
+          "victim_load_x": 15,
+          "steal_amount_s": 2,
+          "benefit": 52,
+          "cost": 1.0,
+          "margin": 51.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 2,
+          "victim_worker": 1,
+          "job_id": "compaction",
+          "victim_load_x": 22,
+          "steal_amount_s": 11,
+          "benefit": 242,
+          "cost": 20.0,
+          "margin": 222.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 3,
+          "victim_worker": 1,
+          "job_id": "compaction",
+          "victim_load_x": 22,
+          "steal_amount_s": 11,
+          "benefit": 242,
+          "cost": 20.0,
+          "margin": 222.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 2,
+          "victim_worker": 1,
+          "job_id": "compaction",
+          "victim_load_x": 18,
+          "steal_amount_s": 9,
+          "benefit": 162,
+          "cost": 20.0,
+          "margin": 142.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 3,
+          "victim_worker": 1,
+          "job_id": "compaction",
+          "victim_load_x": 18,
+          "steal_amount_s": 9,
+          "benefit": 162,
+          "cost": 20.0,
+          "margin": 142.0,
+          "decision": false
+        },
+        {
+          "time": 4,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q1",
+          "victim_load_x": 15,
+          "steal_amount_s": 2,
+          "benefit": 52,
+          "cost": 1.0,
+          "margin": 51.0,
+          "decision": true
+        },
+        {
+          "time": 4,
+          "idle_worker": 3,
+          "victim_worker": 1,
+          "job_id": "compaction",
+          "victim_load_x": 14,
+          "steal_amount_s": 7,
+          "benefit": 98,
+          "cost": 20.0,
+          "margin": 78.0,
+          "decision": false
+        },
+        {
+          "time": 5,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q2",
+          "victim_load_x": 11,
+          "steal_amount_s": 2,
+          "benefit": 36,
+          "cost": 1.0,
+          "margin": 35.0,
+          "decision": true
+        },
+        {
+          "time": 6,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q3",
+          "victim_load_x": 7,
+          "steal_amount_s": 2,
+          "benefit": 20,
+          "cost": 1.0,
+          "margin": 19.0,
+          "decision": true
+        },
+        {
+          "time": 7,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 3,
+          "steal_amount_s": 2,
+          "benefit": 4,
+          "cost": 1.0,
+          "margin": 3.0,
+          "decision": false
+        },
+        {
+          "time": 8,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 2,
+          "benefit": 0,
+          "cost": 1.0,
+          "margin": -1.0,
+          "decision": false
+        },
+        {
+          "time": 8,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 2,
+          "benefit": 0,
+          "cost": 1.0,
+          "margin": -1.0,
+          "decision": false
+        },
+        {
+          "time": 9,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 1.0,
+          "margin": 1.0,
+          "decision": false
+        },
+        {
+          "time": 9,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "q4",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 1.0,
+          "margin": 1.0,
+          "decision": false
+        },
+        {
+          "time": 10,
+          "idle_worker": 0,
+          "victim_worker": 1,
+          "job_id": "compaction",
+          "victim_load_x": -6,
+          "steal_amount_s": -3,
+          "benefit": 18,
+          "cost": 20.0,
+          "margin": -2.0,
+          "decision": false
+        },
+        {
+          "time": 10,
+          "idle_worker": 2,
+          "victim_worker": 1,
+          "job_id": "compaction",
+          "victim_load_x": -6,
+          "steal_amount_s": -3,
+          "benefit": 18,
+          "cost": 20.0,
+          "margin": -2.0,
+          "decision": false
+        },
+        {
+          "time": 10,
+          "idle_worker": 3,
+          "victim_worker": 1,
+          "job_id": "compaction",
+          "victim_load_x": -6,
+          "steal_amount_s": -3,
+          "benefit": 18,
+          "cost": 20.0,
+          "margin": -2.0,
+          "decision": false
+        }
+      ],
+      "decision_summary": {
+        "opportunities": 22,
+        "accepted": 4,
+        "rejected": 18,
+        "bad_accepts": 0,
+        "bad_rejects": 13,
+        "avg_benefit": 124.81818181818181,
+        "avg_cost": 11.363636363636363,
+        "avg_margin": 113.45454545454545,
+        "accept_rate": 0.18181818181818182
+      },
+      "potential_log": [
+        {
+          "time": 0,
+          "phi": 588.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 588.0,
+          "loads": [
+            28,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1,
+          "phi": 198.0,
+          "migration_cost_so_far": 20,
+          "avg_migration_cost_per_time": 10.0,
+          "psi": 208.0,
+          "loads": [
+            15,
+            13,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 2,
+          "phi": 366.75,
+          "migration_cost_so_far": 20,
+          "avg_migration_cost_per_time": 6.666666666666667,
+          "psi": 373.4166666666667,
+          "loads": [
+            15,
+            22,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 3,
+          "phi": 276.75,
+          "migration_cost_so_far": 20,
+          "avg_migration_cost_per_time": 5.0,
+          "psi": 281.75,
+          "loads": [
+            15,
+            18,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 4,
+          "phi": 158.75,
+          "migration_cost_so_far": 21,
+          "avg_migration_cost_per_time": 4.2,
+          "psi": 162.95,
+          "loads": [
+            13,
+            14,
+            2,
+            0
+          ]
+        },
+        {
+          "time": 5,
+          "phi": 56.75,
+          "migration_cost_so_far": 22,
+          "avg_migration_cost_per_time": 3.6666666666666665,
+          "psi": 60.416666666666664,
+          "loads": [
+            9,
+            10,
+            2,
+            2
+          ]
+        },
+        {
+          "time": 6,
+          "phi": 12.75,
+          "migration_cost_so_far": 23,
+          "avg_migration_cost_per_time": 3.2857142857142856,
+          "psi": 16.035714285714285,
+          "loads": [
+            5,
+            6,
+            2,
+            2
+          ]
+        },
+        {
+          "time": 7,
+          "phi": 4.75,
+          "migration_cost_so_far": 23,
+          "avg_migration_cost_per_time": 2.875,
+          "psi": 7.625,
+          "loads": [
+            3,
+            2,
+            2,
+            0
+          ]
+        },
+        {
+          "time": 8,
+          "phi": 8.0,
+          "migration_cost_so_far": 23,
+          "avg_migration_cost_per_time": 2.5555555555555554,
+          "psi": 10.555555555555555,
+          "loads": [
+            2,
+            -2,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 9,
+          "phi": 19.0,
+          "migration_cost_so_far": 23,
+          "avg_migration_cost_per_time": 2.3,
+          "psi": 21.3,
+          "loads": [
+            2,
+            -4,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 10,
+          "phi": 27.0,
+          "migration_cost_so_far": 23,
+          "avg_migration_cost_per_time": 2.090909090909091,
+          "psi": 29.09090909090909,
+          "loads": [
+            0,
+            -6,
+            0,
+            0
+          ]
+        }
+      ],
+      "avg_potential": 156.04545454545453,
+      "max_potential": 588.0,
+      "final_potential": 27.0,
+      "avg_migration_cost_per_time": 2.090909090909091,
+      "avg_cost_aware_potential": 158.13636363636363,
+      "avg_timestep_cost_aware_potential": 159.92186475141023
+    }
+  },
+  "Web": {
+    "No Stealing": {
+      "jobs_completed": 6,
+      "work_completed": 6,
+      "value_completed": 30,
+      "total_interruptions": 0,
+      "total_value_lost": 0,
+      "total_migration_cost": 0,
+      "total_steals": 0,
+      "total_time": 6,
+      "weighted_completion_time": 75,
+      "avg_response_time": 2.5,
+      "decision_log": [
+        {
+          "time": 0,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "r2",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        },
+        {
+          "time": 0,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "r2",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        },
+        {
+          "time": 0,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "r2",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "r3",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 0.0,
+          "margin": 2.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "r3",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 0.0,
+          "margin": 2.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "r3",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 0.0,
+          "margin": 2.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "r4",
+          "victim_load_x": 3,
+          "steal_amount_s": 1,
+          "benefit": 4,
+          "cost": 0.0,
+          "margin": 4.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "r4",
+          "victim_load_x": 3,
+          "steal_amount_s": 1,
+          "benefit": 4,
+          "cost": 0.0,
+          "margin": 4.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "r4",
+          "victim_load_x": 3,
+          "steal_amount_s": 1,
+          "benefit": 4,
+          "cost": 0.0,
+          "margin": 4.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "r5",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 0.0,
+          "margin": 2.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "r5",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 0.0,
+          "margin": 2.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "r5",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 0.0,
+          "margin": 2.0,
+          "decision": false
+        },
+        {
+          "time": 4,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "r6",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        },
+        {
+          "time": 4,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "r6",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        },
+        {
+          "time": 4,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "r6",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        }
+      ],
+      "decision_summary": {
+        "opportunities": 15,
+        "accepted": 0,
+        "rejected": 15,
+        "bad_accepts": 0,
+        "bad_rejects": 9,
+        "avg_benefit": 1.6,
+        "avg_cost": 0.0,
+        "avg_margin": 1.6,
+        "accept_rate": 0.0
+      },
+      "potential_log": [
+        {
+          "time": 0,
+          "phi": 0.75,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 0.75,
+          "loads": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1,
+          "phi": 3.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 3.0,
+          "loads": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 2,
+          "phi": 6.75,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 6.75,
+          "loads": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 3,
+          "phi": 3.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 3.0,
+          "loads": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 4,
+          "phi": 0.75,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 0.75,
+          "loads": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 5,
+          "phi": 0.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 0.0,
+          "loads": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "avg_potential": 2.375,
+      "max_potential": 6.75,
+      "final_potential": 0.0,
+      "avg_migration_cost_per_time": 0.0,
+      "avg_cost_aware_potential": 2.375,
+      "avg_timestep_cost_aware_potential": 2.375
+    },
+    "Always Stealing": {
+      "jobs_completed": 6,
+      "work_completed": 6,
+      "value_completed": 30,
+      "total_interruptions": 0,
+      "total_value_lost": 0,
+      "total_migration_cost": 0,
+      "total_steals": 9,
+      "total_time": 4,
+      "weighted_completion_time": 45,
+      "avg_response_time": 1.5,
+      "decision_log": [
+        {
+          "time": 0,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "r2",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": true
+        },
+        {
+          "time": 0,
+          "idle_worker": 2,
+          "victim_worker": 1,
+          "job_id": "r2",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": true
+        },
+        {
+          "time": 0,
+          "idle_worker": 3,
+          "victim_worker": 2,
+          "job_id": "r2",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": true
+        },
+        {
+          "time": 1,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "r4",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": true
+        },
+        {
+          "time": 1,
+          "idle_worker": 2,
+          "victim_worker": 1,
+          "job_id": "r4",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": true
+        },
+        {
+          "time": 1,
+          "idle_worker": 3,
+          "victim_worker": 2,
+          "job_id": "r4",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": true
+        },
+        {
+          "time": 2,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "r6",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": true
+        },
+        {
+          "time": 2,
+          "idle_worker": 2,
+          "victim_worker": 1,
+          "job_id": "r6",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": true
+        },
+        {
+          "time": 2,
+          "idle_worker": 3,
+          "victim_worker": 2,
+          "job_id": "r6",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": true
+        }
+      ],
+      "decision_summary": {
+        "opportunities": 9,
+        "accepted": 9,
+        "rejected": 0,
+        "bad_accepts": 9,
+        "bad_rejects": 0,
+        "avg_benefit": 0.0,
+        "avg_cost": 0.0,
+        "avg_margin": 0.0,
+        "accept_rate": 1.0
+      },
+      "potential_log": [
+        {
+          "time": 0,
+          "phi": 0.75,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 0.75,
+          "loads": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "time": 1,
+          "phi": 0.75,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 0.75,
+          "loads": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "time": 2,
+          "phi": 0.75,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 0.75,
+          "loads": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "time": 3,
+          "phi": 0.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 0.0,
+          "loads": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "avg_potential": 0.5625,
+      "max_potential": 0.75,
+      "final_potential": 0.0,
+      "avg_migration_cost_per_time": 0.0,
+      "avg_cost_aware_potential": 0.5625,
+      "avg_timestep_cost_aware_potential": 0.5625
+    },
+    "Cost-Aware Stealing": {
+      "jobs_completed": 6,
+      "work_completed": 6,
+      "value_completed": 30,
+      "total_interruptions": 0,
+      "total_value_lost": 0,
+      "total_migration_cost": 0,
+      "total_steals": 2,
+      "total_time": 4,
+      "weighted_completion_time": 55,
+      "avg_response_time": 1.8333333333333333,
+      "decision_log": [
+        {
+          "time": 0,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "r2",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        },
+        {
+          "time": 0,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "r2",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        },
+        {
+          "time": 0,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "r2",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "r3",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 0.0,
+          "margin": 2.0,
+          "decision": true
+        },
+        {
+          "time": 1,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "r4",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "r4",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "r5",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 0.0,
+          "margin": 2.0,
+          "decision": true
+        },
+        {
+          "time": 2,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "r6",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "r6",
+          "victim_load_x": 1,
+          "steal_amount_s": 1,
+          "benefit": 0,
+          "cost": 0.0,
+          "margin": 0.0,
+          "decision": false
+        }
+      ],
+      "decision_summary": {
+        "opportunities": 9,
+        "accepted": 2,
+        "rejected": 7,
+        "bad_accepts": 0,
+        "bad_rejects": 0,
+        "avg_benefit": 0.4444444444444444,
+        "avg_cost": 0.0,
+        "avg_margin": 0.4444444444444444,
+        "accept_rate": 0.2222222222222222
+      },
+      "potential_log": [
+        {
+          "time": 0,
+          "phi": 0.75,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 0.75,
+          "loads": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1,
+          "phi": 1.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 1.0,
+          "loads": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 2,
+          "phi": 1.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 1.0,
+          "loads": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 3,
+          "phi": 0.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 0.0,
+          "loads": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "avg_potential": 0.6875,
+      "max_potential": 1.0,
+      "final_potential": 0.0,
+      "avg_migration_cost_per_time": 0.0,
+      "avg_cost_aware_potential": 0.6875,
+      "avg_timestep_cost_aware_potential": 0.6875
+    }
+  },
+  "ML": {
+    "No Stealing": {
+      "jobs_completed": 3,
+      "work_completed": 40,
+      "value_completed": 200,
+      "total_interruptions": 0,
+      "total_value_lost": 0,
+      "total_migration_cost": 0,
+      "total_steals": 0,
+      "total_time": 40,
+      "weighted_completion_time": 5450,
+      "avg_response_time": 29.666666666666668,
+      "decision_log": [
+        {
+          "time": 0,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 48,
+          "steal_amount_s": 19,
+          "benefit": 1102,
+          "cost": 25.0,
+          "margin": 1077.0,
+          "decision": false
+        },
+        {
+          "time": 0,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 48,
+          "steal_amount_s": 19,
+          "benefit": 1102,
+          "cost": 25.0,
+          "margin": 1077.0,
+          "decision": false
+        },
+        {
+          "time": 0,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 48,
+          "steal_amount_s": 19,
+          "benefit": 1102,
+          "cost": 25.0,
+          "margin": 1077.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 56,
+          "steal_amount_s": 18,
+          "benefit": 1368,
+          "cost": 25.0,
+          "margin": 1343.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 56,
+          "steal_amount_s": 18,
+          "benefit": 1368,
+          "cost": 25.0,
+          "margin": 1343.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 56,
+          "steal_amount_s": 18,
+          "benefit": 1368,
+          "cost": 25.0,
+          "margin": 1343.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 54,
+          "steal_amount_s": 17,
+          "benefit": 1258,
+          "cost": 25.0,
+          "margin": 1233.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 54,
+          "steal_amount_s": 17,
+          "benefit": 1258,
+          "cost": 25.0,
+          "margin": 1233.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 54,
+          "steal_amount_s": 17,
+          "benefit": 1258,
+          "cost": 25.0,
+          "margin": 1233.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 52,
+          "steal_amount_s": 16,
+          "benefit": 1152,
+          "cost": 25.0,
+          "margin": 1127.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 52,
+          "steal_amount_s": 16,
+          "benefit": 1152,
+          "cost": 25.0,
+          "margin": 1127.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 52,
+          "steal_amount_s": 16,
+          "benefit": 1152,
+          "cost": 25.0,
+          "margin": 1127.0,
+          "decision": false
+        },
+        {
+          "time": 4,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 50,
+          "steal_amount_s": 15,
+          "benefit": 1050,
+          "cost": 25.0,
+          "margin": 1025.0,
+          "decision": false
+        },
+        {
+          "time": 4,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 50,
+          "steal_amount_s": 15,
+          "benefit": 1050,
+          "cost": 25.0,
+          "margin": 1025.0,
+          "decision": false
+        },
+        {
+          "time": 4,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 50,
+          "steal_amount_s": 15,
+          "benefit": 1050,
+          "cost": 25.0,
+          "margin": 1025.0,
+          "decision": false
+        },
+        {
+          "time": 5,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 48,
+          "steal_amount_s": 14,
+          "benefit": 952,
+          "cost": 25.0,
+          "margin": 927.0,
+          "decision": false
+        },
+        {
+          "time": 5,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 48,
+          "steal_amount_s": 14,
+          "benefit": 952,
+          "cost": 25.0,
+          "margin": 927.0,
+          "decision": false
+        },
+        {
+          "time": 5,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 48,
+          "steal_amount_s": 14,
+          "benefit": 952,
+          "cost": 25.0,
+          "margin": 927.0,
+          "decision": false
+        },
+        {
+          "time": 6,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 46,
+          "steal_amount_s": 13,
+          "benefit": 858,
+          "cost": 25.0,
+          "margin": 833.0,
+          "decision": false
+        },
+        {
+          "time": 6,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 46,
+          "steal_amount_s": 13,
+          "benefit": 858,
+          "cost": 25.0,
+          "margin": 833.0,
+          "decision": false
+        },
+        {
+          "time": 6,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 46,
+          "steal_amount_s": 13,
+          "benefit": 858,
+          "cost": 25.0,
+          "margin": 833.0,
+          "decision": false
+        },
+        {
+          "time": 7,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 44,
+          "steal_amount_s": 12,
+          "benefit": 768,
+          "cost": 25.0,
+          "margin": 743.0,
+          "decision": false
+        },
+        {
+          "time": 7,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 44,
+          "steal_amount_s": 12,
+          "benefit": 768,
+          "cost": 25.0,
+          "margin": 743.0,
+          "decision": false
+        },
+        {
+          "time": 7,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 44,
+          "steal_amount_s": 12,
+          "benefit": 768,
+          "cost": 25.0,
+          "margin": 743.0,
+          "decision": false
+        },
+        {
+          "time": 8,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 42,
+          "steal_amount_s": 11,
+          "benefit": 682,
+          "cost": 25.0,
+          "margin": 657.0,
+          "decision": false
+        },
+        {
+          "time": 8,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 42,
+          "steal_amount_s": 11,
+          "benefit": 682,
+          "cost": 25.0,
+          "margin": 657.0,
+          "decision": false
+        },
+        {
+          "time": 8,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 42,
+          "steal_amount_s": 11,
+          "benefit": 682,
+          "cost": 25.0,
+          "margin": 657.0,
+          "decision": false
+        },
+        {
+          "time": 9,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 40,
+          "steal_amount_s": 10,
+          "benefit": 600,
+          "cost": 25.0,
+          "margin": 575.0,
+          "decision": false
+        },
+        {
+          "time": 9,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 40,
+          "steal_amount_s": 10,
+          "benefit": 600,
+          "cost": 25.0,
+          "margin": 575.0,
+          "decision": false
+        },
+        {
+          "time": 9,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 40,
+          "steal_amount_s": 10,
+          "benefit": 600,
+          "cost": 25.0,
+          "margin": 575.0,
+          "decision": false
+        },
+        {
+          "time": 10,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 38,
+          "steal_amount_s": 9,
+          "benefit": 522,
+          "cost": 25.0,
+          "margin": 497.0,
+          "decision": false
+        },
+        {
+          "time": 10,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 38,
+          "steal_amount_s": 9,
+          "benefit": 522,
+          "cost": 25.0,
+          "margin": 497.0,
+          "decision": false
+        },
+        {
+          "time": 10,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 38,
+          "steal_amount_s": 9,
+          "benefit": 522,
+          "cost": 25.0,
+          "margin": 497.0,
+          "decision": false
+        },
+        {
+          "time": 11,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 36,
+          "steal_amount_s": 8,
+          "benefit": 448,
+          "cost": 25.0,
+          "margin": 423.0,
+          "decision": false
+        },
+        {
+          "time": 11,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 36,
+          "steal_amount_s": 8,
+          "benefit": 448,
+          "cost": 25.0,
+          "margin": 423.0,
+          "decision": false
+        },
+        {
+          "time": 11,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 36,
+          "steal_amount_s": 8,
+          "benefit": 448,
+          "cost": 25.0,
+          "margin": 423.0,
+          "decision": false
+        },
+        {
+          "time": 12,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 34,
+          "steal_amount_s": 7,
+          "benefit": 378,
+          "cost": 25.0,
+          "margin": 353.0,
+          "decision": false
+        },
+        {
+          "time": 12,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 34,
+          "steal_amount_s": 7,
+          "benefit": 378,
+          "cost": 25.0,
+          "margin": 353.0,
+          "decision": false
+        },
+        {
+          "time": 12,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 34,
+          "steal_amount_s": 7,
+          "benefit": 378,
+          "cost": 25.0,
+          "margin": 353.0,
+          "decision": false
+        },
+        {
+          "time": 13,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 32,
+          "steal_amount_s": 6,
+          "benefit": 312,
+          "cost": 25.0,
+          "margin": 287.0,
+          "decision": false
+        },
+        {
+          "time": 13,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 32,
+          "steal_amount_s": 6,
+          "benefit": 312,
+          "cost": 25.0,
+          "margin": 287.0,
+          "decision": false
+        },
+        {
+          "time": 13,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 32,
+          "steal_amount_s": 6,
+          "benefit": 312,
+          "cost": 25.0,
+          "margin": 287.0,
+          "decision": false
+        },
+        {
+          "time": 14,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 30,
+          "steal_amount_s": 5,
+          "benefit": 250,
+          "cost": 25.0,
+          "margin": 225.0,
+          "decision": false
+        },
+        {
+          "time": 14,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 30,
+          "steal_amount_s": 5,
+          "benefit": 250,
+          "cost": 25.0,
+          "margin": 225.0,
+          "decision": false
+        },
+        {
+          "time": 14,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 30,
+          "steal_amount_s": 5,
+          "benefit": 250,
+          "cost": 25.0,
+          "margin": 225.0,
+          "decision": false
+        },
+        {
+          "time": 15,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 28,
+          "steal_amount_s": 4,
+          "benefit": 192,
+          "cost": 25.0,
+          "margin": 167.0,
+          "decision": false
+        },
+        {
+          "time": 15,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 28,
+          "steal_amount_s": 4,
+          "benefit": 192,
+          "cost": 25.0,
+          "margin": 167.0,
+          "decision": false
+        },
+        {
+          "time": 15,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 28,
+          "steal_amount_s": 4,
+          "benefit": 192,
+          "cost": 25.0,
+          "margin": 167.0,
+          "decision": false
+        },
+        {
+          "time": 16,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 26,
+          "steal_amount_s": 3,
+          "benefit": 138,
+          "cost": 25.0,
+          "margin": 113.0,
+          "decision": false
+        },
+        {
+          "time": 16,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 26,
+          "steal_amount_s": 3,
+          "benefit": 138,
+          "cost": 25.0,
+          "margin": 113.0,
+          "decision": false
+        },
+        {
+          "time": 16,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 26,
+          "steal_amount_s": 3,
+          "benefit": 138,
+          "cost": 25.0,
+          "margin": 113.0,
+          "decision": false
+        },
+        {
+          "time": 17,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 24,
+          "steal_amount_s": 2,
+          "benefit": 88,
+          "cost": 25.0,
+          "margin": 63.0,
+          "decision": false
+        },
+        {
+          "time": 17,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 24,
+          "steal_amount_s": 2,
+          "benefit": 88,
+          "cost": 25.0,
+          "margin": 63.0,
+          "decision": false
+        },
+        {
+          "time": 17,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 24,
+          "steal_amount_s": 2,
+          "benefit": 88,
+          "cost": 25.0,
+          "margin": 63.0,
+          "decision": false
+        },
+        {
+          "time": 18,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 22,
+          "steal_amount_s": 1,
+          "benefit": 42,
+          "cost": 25.0,
+          "margin": 17.0,
+          "decision": false
+        },
+        {
+          "time": 18,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 22,
+          "steal_amount_s": 1,
+          "benefit": 42,
+          "cost": 25.0,
+          "margin": 17.0,
+          "decision": false
+        },
+        {
+          "time": 18,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 22,
+          "steal_amount_s": 1,
+          "benefit": 42,
+          "cost": 25.0,
+          "margin": 17.0,
+          "decision": false
+        },
+        {
+          "time": 19,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 20,
+          "steal_amount_s": 10,
+          "benefit": 200,
+          "cost": 15.0,
+          "margin": 185.0,
+          "decision": false
+        },
+        {
+          "time": 19,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 20,
+          "steal_amount_s": 10,
+          "benefit": 200,
+          "cost": 15.0,
+          "margin": 185.0,
+          "decision": false
+        },
+        {
+          "time": 19,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 20,
+          "steal_amount_s": 10,
+          "benefit": 200,
+          "cost": 15.0,
+          "margin": 185.0,
+          "decision": false
+        },
+        {
+          "time": 20,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 28,
+          "steal_amount_s": 9,
+          "benefit": 342,
+          "cost": 15.0,
+          "margin": 327.0,
+          "decision": false
+        },
+        {
+          "time": 20,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 28,
+          "steal_amount_s": 9,
+          "benefit": 342,
+          "cost": 15.0,
+          "margin": 327.0,
+          "decision": false
+        },
+        {
+          "time": 20,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 28,
+          "steal_amount_s": 9,
+          "benefit": 342,
+          "cost": 15.0,
+          "margin": 327.0,
+          "decision": false
+        },
+        {
+          "time": 21,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 26,
+          "steal_amount_s": 8,
+          "benefit": 288,
+          "cost": 15.0,
+          "margin": 273.0,
+          "decision": false
+        },
+        {
+          "time": 21,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 26,
+          "steal_amount_s": 8,
+          "benefit": 288,
+          "cost": 15.0,
+          "margin": 273.0,
+          "decision": false
+        },
+        {
+          "time": 21,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 26,
+          "steal_amount_s": 8,
+          "benefit": 288,
+          "cost": 15.0,
+          "margin": 273.0,
+          "decision": false
+        },
+        {
+          "time": 22,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 24,
+          "steal_amount_s": 7,
+          "benefit": 238,
+          "cost": 15.0,
+          "margin": 223.0,
+          "decision": false
+        },
+        {
+          "time": 22,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 24,
+          "steal_amount_s": 7,
+          "benefit": 238,
+          "cost": 15.0,
+          "margin": 223.0,
+          "decision": false
+        },
+        {
+          "time": 22,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 24,
+          "steal_amount_s": 7,
+          "benefit": 238,
+          "cost": 15.0,
+          "margin": 223.0,
+          "decision": false
+        },
+        {
+          "time": 23,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 22,
+          "steal_amount_s": 6,
+          "benefit": 192,
+          "cost": 15.0,
+          "margin": 177.0,
+          "decision": false
+        },
+        {
+          "time": 23,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 22,
+          "steal_amount_s": 6,
+          "benefit": 192,
+          "cost": 15.0,
+          "margin": 177.0,
+          "decision": false
+        },
+        {
+          "time": 23,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 22,
+          "steal_amount_s": 6,
+          "benefit": 192,
+          "cost": 15.0,
+          "margin": 177.0,
+          "decision": false
+        },
+        {
+          "time": 24,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 20,
+          "steal_amount_s": 5,
+          "benefit": 150,
+          "cost": 15.0,
+          "margin": 135.0,
+          "decision": false
+        },
+        {
+          "time": 24,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 20,
+          "steal_amount_s": 5,
+          "benefit": 150,
+          "cost": 15.0,
+          "margin": 135.0,
+          "decision": false
+        },
+        {
+          "time": 24,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 20,
+          "steal_amount_s": 5,
+          "benefit": 150,
+          "cost": 15.0,
+          "margin": 135.0,
+          "decision": false
+        },
+        {
+          "time": 25,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 18,
+          "steal_amount_s": 4,
+          "benefit": 112,
+          "cost": 15.0,
+          "margin": 97.0,
+          "decision": false
+        },
+        {
+          "time": 25,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 18,
+          "steal_amount_s": 4,
+          "benefit": 112,
+          "cost": 15.0,
+          "margin": 97.0,
+          "decision": false
+        },
+        {
+          "time": 25,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 18,
+          "steal_amount_s": 4,
+          "benefit": 112,
+          "cost": 15.0,
+          "margin": 97.0,
+          "decision": false
+        },
+        {
+          "time": 26,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 16,
+          "steal_amount_s": 3,
+          "benefit": 78,
+          "cost": 15.0,
+          "margin": 63.0,
+          "decision": false
+        },
+        {
+          "time": 26,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 16,
+          "steal_amount_s": 3,
+          "benefit": 78,
+          "cost": 15.0,
+          "margin": 63.0,
+          "decision": false
+        },
+        {
+          "time": 26,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 16,
+          "steal_amount_s": 3,
+          "benefit": 78,
+          "cost": 15.0,
+          "margin": 63.0,
+          "decision": false
+        },
+        {
+          "time": 27,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 14,
+          "steal_amount_s": 2,
+          "benefit": 48,
+          "cost": 15.0,
+          "margin": 33.0,
+          "decision": false
+        },
+        {
+          "time": 27,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 14,
+          "steal_amount_s": 2,
+          "benefit": 48,
+          "cost": 15.0,
+          "margin": 33.0,
+          "decision": false
+        },
+        {
+          "time": 27,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 14,
+          "steal_amount_s": 2,
+          "benefit": 48,
+          "cost": 15.0,
+          "margin": 33.0,
+          "decision": false
+        },
+        {
+          "time": 28,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 12,
+          "steal_amount_s": 1,
+          "benefit": 22,
+          "cost": 15.0,
+          "margin": 7.0,
+          "decision": false
+        },
+        {
+          "time": 28,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 12,
+          "steal_amount_s": 1,
+          "benefit": 22,
+          "cost": 15.0,
+          "margin": 7.0,
+          "decision": false
+        },
+        {
+          "time": 28,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 12,
+          "steal_amount_s": 1,
+          "benefit": 22,
+          "cost": 15.0,
+          "margin": 7.0,
+          "decision": false
+        },
+        {
+          "time": 29,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 10,
+          "steal_amount_s": 10,
+          "benefit": 0,
+          "cost": 15.0,
+          "margin": -15.0,
+          "decision": false
+        },
+        {
+          "time": 29,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 10,
+          "steal_amount_s": 10,
+          "benefit": 0,
+          "cost": 15.0,
+          "margin": -15.0,
+          "decision": false
+        },
+        {
+          "time": 29,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 10,
+          "steal_amount_s": 10,
+          "benefit": 0,
+          "cost": 15.0,
+          "margin": -15.0,
+          "decision": false
+        },
+        {
+          "time": 30,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 18,
+          "steal_amount_s": 9,
+          "benefit": 162,
+          "cost": 15.0,
+          "margin": 147.0,
+          "decision": false
+        },
+        {
+          "time": 30,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 18,
+          "steal_amount_s": 9,
+          "benefit": 162,
+          "cost": 15.0,
+          "margin": 147.0,
+          "decision": false
+        },
+        {
+          "time": 30,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 18,
+          "steal_amount_s": 9,
+          "benefit": 162,
+          "cost": 15.0,
+          "margin": 147.0,
+          "decision": false
+        },
+        {
+          "time": 31,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 16,
+          "steal_amount_s": 8,
+          "benefit": 128,
+          "cost": 15.0,
+          "margin": 113.0,
+          "decision": false
+        },
+        {
+          "time": 31,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 16,
+          "steal_amount_s": 8,
+          "benefit": 128,
+          "cost": 15.0,
+          "margin": 113.0,
+          "decision": false
+        },
+        {
+          "time": 31,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 16,
+          "steal_amount_s": 8,
+          "benefit": 128,
+          "cost": 15.0,
+          "margin": 113.0,
+          "decision": false
+        },
+        {
+          "time": 32,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 14,
+          "steal_amount_s": 7,
+          "benefit": 98,
+          "cost": 15.0,
+          "margin": 83.0,
+          "decision": false
+        },
+        {
+          "time": 32,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 14,
+          "steal_amount_s": 7,
+          "benefit": 98,
+          "cost": 15.0,
+          "margin": 83.0,
+          "decision": false
+        },
+        {
+          "time": 32,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 14,
+          "steal_amount_s": 7,
+          "benefit": 98,
+          "cost": 15.0,
+          "margin": 83.0,
+          "decision": false
+        },
+        {
+          "time": 33,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 12,
+          "steal_amount_s": 6,
+          "benefit": 72,
+          "cost": 15.0,
+          "margin": 57.0,
+          "decision": false
+        },
+        {
+          "time": 33,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 12,
+          "steal_amount_s": 6,
+          "benefit": 72,
+          "cost": 15.0,
+          "margin": 57.0,
+          "decision": false
+        },
+        {
+          "time": 33,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 12,
+          "steal_amount_s": 6,
+          "benefit": 72,
+          "cost": 15.0,
+          "margin": 57.0,
+          "decision": false
+        },
+        {
+          "time": 34,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 10,
+          "steal_amount_s": 5,
+          "benefit": 50,
+          "cost": 15.0,
+          "margin": 35.0,
+          "decision": false
+        },
+        {
+          "time": 34,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 10,
+          "steal_amount_s": 5,
+          "benefit": 50,
+          "cost": 15.0,
+          "margin": 35.0,
+          "decision": false
+        },
+        {
+          "time": 34,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 10,
+          "steal_amount_s": 5,
+          "benefit": 50,
+          "cost": 15.0,
+          "margin": 35.0,
+          "decision": false
+        },
+        {
+          "time": 35,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 8,
+          "steal_amount_s": 4,
+          "benefit": 32,
+          "cost": 15.0,
+          "margin": 17.0,
+          "decision": false
+        },
+        {
+          "time": 35,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 8,
+          "steal_amount_s": 4,
+          "benefit": 32,
+          "cost": 15.0,
+          "margin": 17.0,
+          "decision": false
+        },
+        {
+          "time": 35,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 8,
+          "steal_amount_s": 4,
+          "benefit": 32,
+          "cost": 15.0,
+          "margin": 17.0,
+          "decision": false
+        },
+        {
+          "time": 36,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 6,
+          "steal_amount_s": 3,
+          "benefit": 18,
+          "cost": 15.0,
+          "margin": 3.0,
+          "decision": false
+        },
+        {
+          "time": 36,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 6,
+          "steal_amount_s": 3,
+          "benefit": 18,
+          "cost": 15.0,
+          "margin": 3.0,
+          "decision": false
+        },
+        {
+          "time": 36,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 6,
+          "steal_amount_s": 3,
+          "benefit": 18,
+          "cost": 15.0,
+          "margin": 3.0,
+          "decision": false
+        },
+        {
+          "time": 37,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 4,
+          "steal_amount_s": 2,
+          "benefit": 8,
+          "cost": 15.0,
+          "margin": -7.0,
+          "decision": false
+        },
+        {
+          "time": 37,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 4,
+          "steal_amount_s": 2,
+          "benefit": 8,
+          "cost": 15.0,
+          "margin": -7.0,
+          "decision": false
+        },
+        {
+          "time": 37,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 4,
+          "steal_amount_s": 2,
+          "benefit": 8,
+          "cost": 15.0,
+          "margin": -7.0,
+          "decision": false
+        },
+        {
+          "time": 38,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 15.0,
+          "margin": -13.0,
+          "decision": false
+        },
+        {
+          "time": 38,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 15.0,
+          "margin": -13.0,
+          "decision": false
+        },
+        {
+          "time": 38,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 15.0,
+          "margin": -13.0,
+          "decision": false
+        }
+      ],
+      "decision_summary": {
+        "opportunities": 117,
+        "accepted": 0,
+        "rejected": 117,
+        "bad_accepts": 0,
+        "bad_rejects": 108,
+        "avg_benefit": 369.2307692307692,
+        "avg_cost": 19.871794871794872,
+        "avg_margin": 349.35897435897436,
+        "accept_rate": 0.0
+      },
+      "potential_log": [
+        {
+          "time": 0,
+          "phi": 1728.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 1728.0,
+          "loads": [
+            48,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1,
+          "phi": 2352.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 2352.0,
+          "loads": [
+            56,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 2,
+          "phi": 2187.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 2187.0,
+          "loads": [
+            54,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 3,
+          "phi": 2028.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 2028.0,
+          "loads": [
+            52,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 4,
+          "phi": 1875.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 1875.0,
+          "loads": [
+            50,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 5,
+          "phi": 1728.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 1728.0,
+          "loads": [
+            48,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 6,
+          "phi": 1587.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 1587.0,
+          "loads": [
+            46,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 7,
+          "phi": 1452.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 1452.0,
+          "loads": [
+            44,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 8,
+          "phi": 1323.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 1323.0,
+          "loads": [
+            42,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 9,
+          "phi": 1200.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 1200.0,
+          "loads": [
+            40,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 10,
+          "phi": 1083.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 1083.0,
+          "loads": [
+            38,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 11,
+          "phi": 972.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 972.0,
+          "loads": [
+            36,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 12,
+          "phi": 867.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 867.0,
+          "loads": [
+            34,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 13,
+          "phi": 768.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 768.0,
+          "loads": [
+            32,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 14,
+          "phi": 675.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 675.0,
+          "loads": [
+            30,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 15,
+          "phi": 588.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 588.0,
+          "loads": [
+            28,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 16,
+          "phi": 507.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 507.0,
+          "loads": [
+            26,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 17,
+          "phi": 432.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 432.0,
+          "loads": [
+            24,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 18,
+          "phi": 363.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 363.0,
+          "loads": [
+            22,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 19,
+          "phi": 300.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 300.0,
+          "loads": [
+            20,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 20,
+          "phi": 588.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 588.0,
+          "loads": [
+            28,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 21,
+          "phi": 507.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 507.0,
+          "loads": [
+            26,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 22,
+          "phi": 432.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 432.0,
+          "loads": [
+            24,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 23,
+          "phi": 363.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 363.0,
+          "loads": [
+            22,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 24,
+          "phi": 300.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 300.0,
+          "loads": [
+            20,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 25,
+          "phi": 243.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 243.0,
+          "loads": [
+            18,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 26,
+          "phi": 192.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 192.0,
+          "loads": [
+            16,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 27,
+          "phi": 147.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 147.0,
+          "loads": [
+            14,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 28,
+          "phi": 108.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 108.0,
+          "loads": [
+            12,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 29,
+          "phi": 75.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 75.0,
+          "loads": [
+            10,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 30,
+          "phi": 243.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 243.0,
+          "loads": [
+            18,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 31,
+          "phi": 192.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 192.0,
+          "loads": [
+            16,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 32,
+          "phi": 147.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 147.0,
+          "loads": [
+            14,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 33,
+          "phi": 108.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 108.0,
+          "loads": [
+            12,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 34,
+          "phi": 75.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 75.0,
+          "loads": [
+            10,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 35,
+          "phi": 48.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 48.0,
+          "loads": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 36,
+          "phi": 27.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 27.0,
+          "loads": [
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 37,
+          "phi": 12.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 12.0,
+          "loads": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 38,
+          "phi": 3.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 3.0,
+          "loads": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 39,
+          "phi": 0.0,
+          "migration_cost_so_far": 0,
+          "avg_migration_cost_per_time": 0.0,
+          "psi": 0.0,
+          "loads": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "avg_potential": 695.625,
+      "max_potential": 2352.0,
+      "final_potential": 0.0,
+      "avg_migration_cost_per_time": 0.0,
+      "avg_cost_aware_potential": 695.625,
+      "avg_timestep_cost_aware_potential": 695.625
+    },
+    "Always Stealing": {
+      "jobs_completed": 3,
+      "work_completed": 40,
+      "value_completed": 90,
+      "total_interruptions": 0,
+      "total_value_lost": 0,
+      "total_migration_cost": 110,
+      "total_steals": 6,
+      "total_time": 15,
+      "weighted_completion_time": 2050,
+      "avg_response_time": 11.0,
+      "decision_log": [
+        {
+          "time": 0,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 48,
+          "steal_amount_s": 19,
+          "benefit": 1102,
+          "cost": 25.0,
+          "margin": 1077.0,
+          "decision": true
+        },
+        {
+          "time": 0,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 29,
+          "steal_amount_s": 10,
+          "benefit": 380,
+          "cost": 15.0,
+          "margin": 365.0,
+          "decision": true
+        },
+        {
+          "time": 1,
+          "idle_worker": 3,
+          "victim_worker": 1,
+          "job_id": "train_model",
+          "victim_load_x": 34,
+          "steal_amount_s": 17,
+          "benefit": 578,
+          "cost": 25.0,
+          "margin": 553.0,
+          "decision": true
+        },
+        {
+          "time": 7,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 9,
+          "steal_amount_s": 10,
+          "benefit": -20,
+          "cost": 15.0,
+          "margin": -35.0,
+          "decision": true
+        },
+        {
+          "time": 10,
+          "idle_worker": 2,
+          "victim_worker": 1,
+          "job_id": "batch_2",
+          "victim_load_x": 14,
+          "steal_amount_s": 7,
+          "benefit": 98,
+          "cost": 15.0,
+          "margin": 83.0,
+          "decision": true
+        },
+        {
+          "time": 14,
+          "idle_worker": 1,
+          "victim_worker": 2,
+          "job_id": "batch_2",
+          "victim_load_x": -2,
+          "steal_amount_s": -1,
+          "benefit": 2,
+          "cost": 15.0,
+          "margin": -13.0,
+          "decision": true
+        }
+      ],
+      "decision_summary": {
+        "opportunities": 6,
+        "accepted": 6,
+        "rejected": 0,
+        "bad_accepts": 2,
+        "bad_rejects": 0,
+        "avg_benefit": 356.6666666666667,
+        "avg_cost": 18.333333333333332,
+        "avg_margin": 338.3333333333333,
+        "accept_rate": 1.0
+      },
+      "potential_log": [
+        {
+          "time": 0,
+          "phi": 246.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 40.0,
+          "psi": 286.0,
+          "loads": [
+            19,
+            19,
+            10,
+            0
+          ]
+        },
+        {
+          "time": 1,
+          "phi": 70.75,
+          "migration_cost_so_far": 65,
+          "avg_migration_cost_per_time": 32.5,
+          "psi": 103.25,
+          "loads": [
+            27,
+            17,
+            18,
+            17
+          ]
+        },
+        {
+          "time": 2,
+          "phi": 131.0,
+          "migration_cost_so_far": 65,
+          "avg_migration_cost_per_time": 21.666666666666668,
+          "psi": 152.66666666666666,
+          "loads": [
+            24,
+            14,
+            16,
+            28
+          ]
+        },
+        {
+          "time": 3,
+          "phi": 86.0,
+          "migration_cost_so_far": 65,
+          "avg_migration_cost_per_time": 16.25,
+          "psi": 102.25,
+          "loads": [
+            21,
+            11,
+            14,
+            22
+          ]
+        },
+        {
+          "time": 4,
+          "phi": 59.0,
+          "migration_cost_so_far": 65,
+          "avg_migration_cost_per_time": 13.0,
+          "psi": 72.0,
+          "loads": [
+            18,
+            8,
+            12,
+            16
+          ]
+        },
+        {
+          "time": 5,
+          "phi": 50.0,
+          "migration_cost_so_far": 65,
+          "avg_migration_cost_per_time": 10.833333333333334,
+          "psi": 60.833333333333336,
+          "loads": [
+            15,
+            5,
+            10,
+            10
+          ]
+        },
+        {
+          "time": 6,
+          "phi": 59.0,
+          "migration_cost_so_far": 65,
+          "avg_migration_cost_per_time": 9.285714285714286,
+          "psi": 68.28571428571429,
+          "loads": [
+            12,
+            2,
+            8,
+            4
+          ]
+        },
+        {
+          "time": 7,
+          "phi": 98.75,
+          "migration_cost_so_far": 80,
+          "avg_migration_cost_per_time": 10.0,
+          "psi": 108.75,
+          "loads": [
+            -1,
+            10,
+            6,
+            -2
+          ]
+        },
+        {
+          "time": 8,
+          "phi": 296.0,
+          "migration_cost_so_far": 80,
+          "avg_migration_cost_per_time": 8.88888888888889,
+          "psi": 304.8888888888889,
+          "loads": [
+            -2,
+            18,
+            4,
+            -4
+          ]
+        },
+        {
+          "time": 9,
+          "phi": 284.75,
+          "migration_cost_so_far": 80,
+          "avg_migration_cost_per_time": 8.0,
+          "psi": 292.75,
+          "loads": [
+            -3,
+            16,
+            2,
+            -6
+          ]
+        },
+        {
+          "time": 10,
+          "phi": 177.0,
+          "migration_cost_so_far": 95,
+          "avg_migration_cost_per_time": 8.636363636363637,
+          "psi": 185.63636363636363,
+          "loads": [
+            -4,
+            7,
+            7,
+            -8
+          ]
+        },
+        {
+          "time": 11,
+          "phi": 250.0,
+          "migration_cost_so_far": 95,
+          "avg_migration_cost_per_time": 7.916666666666667,
+          "psi": 257.9166666666667,
+          "loads": [
+            -5,
+            5,
+            10,
+            -10
+          ]
+        },
+        {
+          "time": 12,
+          "phi": 204.75,
+          "migration_cost_so_far": 95,
+          "avg_migration_cost_per_time": 7.3076923076923075,
+          "psi": 212.05769230769232,
+          "loads": [
+            -6,
+            3,
+            6,
+            -12
+          ]
+        },
+        {
+          "time": 13,
+          "phi": 169.0,
+          "migration_cost_so_far": 95,
+          "avg_migration_cost_per_time": 6.785714285714286,
+          "psi": 175.78571428571428,
+          "loads": [
+            -7,
+            1,
+            2,
+            -14
+          ]
+        },
+        {
+          "time": 14,
+          "phi": 153.0,
+          "migration_cost_so_far": 110,
+          "avg_migration_cost_per_time": 7.333333333333333,
+          "psi": 160.33333333333334,
+          "loads": [
+            -8,
+            -1,
+            -1,
+            -16
+          ]
+        }
+      ],
+      "avg_potential": 155.66666666666666,
+      "max_potential": 296.0,
+      "final_potential": 153.0,
+      "avg_migration_cost_per_time": 7.333333333333333,
+      "avg_cost_aware_potential": 163.0,
+      "avg_timestep_cost_aware_potential": 169.56029156029157
+    },
+    "Cost-Aware Stealing": {
+      "jobs_completed": 3,
+      "work_completed": 40,
+      "value_completed": 160,
+      "total_interruptions": 0,
+      "total_value_lost": 0,
+      "total_migration_cost": 40,
+      "total_steals": 2,
+      "total_time": 21,
+      "weighted_completion_time": 2700,
+      "avg_response_time": 14.333333333333334,
+      "decision_log": [
+        {
+          "time": 0,
+          "idle_worker": 1,
+          "victim_worker": 0,
+          "job_id": "train_model",
+          "victim_load_x": 48,
+          "steal_amount_s": 19,
+          "benefit": 1102,
+          "cost": 25.0,
+          "margin": 1077.0,
+          "decision": true
+        },
+        {
+          "time": 0,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 29,
+          "steal_amount_s": 10,
+          "benefit": 380,
+          "cost": 15.0,
+          "margin": 365.0,
+          "decision": false
+        },
+        {
+          "time": 0,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 29,
+          "steal_amount_s": 10,
+          "benefit": 380,
+          "cost": 15.0,
+          "margin": 365.0,
+          "decision": false
+        },
+        {
+          "time": 1,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_1",
+          "victim_load_x": 37,
+          "steal_amount_s": 10,
+          "benefit": 540,
+          "cost": 15.0,
+          "margin": 525.0,
+          "decision": true
+        },
+        {
+          "time": 1,
+          "idle_worker": 3,
+          "victim_worker": 1,
+          "job_id": "train_model",
+          "victim_load_x": 34,
+          "steal_amount_s": 17,
+          "benefit": 578,
+          "cost": 25.0,
+          "margin": 553.0,
+          "decision": false
+        },
+        {
+          "time": 2,
+          "idle_worker": 3,
+          "victim_worker": 1,
+          "job_id": "train_model",
+          "victim_load_x": 30,
+          "steal_amount_s": 15,
+          "benefit": 450,
+          "cost": 25.0,
+          "margin": 425.0,
+          "decision": false
+        },
+        {
+          "time": 3,
+          "idle_worker": 3,
+          "victim_worker": 1,
+          "job_id": "train_model",
+          "victim_load_x": 26,
+          "steal_amount_s": 13,
+          "benefit": 338,
+          "cost": 25.0,
+          "margin": 313.0,
+          "decision": false
+        },
+        {
+          "time": 4,
+          "idle_worker": 3,
+          "victim_worker": 1,
+          "job_id": "train_model",
+          "victim_load_x": 22,
+          "steal_amount_s": 11,
+          "benefit": 242,
+          "cost": 25.0,
+          "margin": 217.0,
+          "decision": false
+        },
+        {
+          "time": 5,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 19,
+          "steal_amount_s": 10,
+          "benefit": 180,
+          "cost": 15.0,
+          "margin": 165.0,
+          "decision": false
+        },
+        {
+          "time": 6,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 17,
+          "steal_amount_s": 10,
+          "benefit": 140,
+          "cost": 15.0,
+          "margin": 125.0,
+          "decision": false
+        },
+        {
+          "time": 7,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 15,
+          "steal_amount_s": 10,
+          "benefit": 100,
+          "cost": 15.0,
+          "margin": 85.0,
+          "decision": false
+        },
+        {
+          "time": 8,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 13,
+          "steal_amount_s": 10,
+          "benefit": 60,
+          "cost": 15.0,
+          "margin": 45.0,
+          "decision": false
+        },
+        {
+          "time": 9,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 11,
+          "steal_amount_s": 10,
+          "benefit": 20,
+          "cost": 15.0,
+          "margin": 5.0,
+          "decision": false
+        },
+        {
+          "time": 10,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 10,
+          "steal_amount_s": 10,
+          "benefit": 0,
+          "cost": 15.0,
+          "margin": -15.0,
+          "decision": false
+        },
+        {
+          "time": 11,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 18,
+          "steal_amount_s": 9,
+          "benefit": 162,
+          "cost": 15.0,
+          "margin": 147.0,
+          "decision": false
+        },
+        {
+          "time": 11,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 18,
+          "steal_amount_s": 9,
+          "benefit": 162,
+          "cost": 15.0,
+          "margin": 147.0,
+          "decision": false
+        },
+        {
+          "time": 12,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 16,
+          "steal_amount_s": 8,
+          "benefit": 128,
+          "cost": 15.0,
+          "margin": 113.0,
+          "decision": false
+        },
+        {
+          "time": 12,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 16,
+          "steal_amount_s": 8,
+          "benefit": 128,
+          "cost": 15.0,
+          "margin": 113.0,
+          "decision": false
+        },
+        {
+          "time": 13,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 14,
+          "steal_amount_s": 7,
+          "benefit": 98,
+          "cost": 15.0,
+          "margin": 83.0,
+          "decision": false
+        },
+        {
+          "time": 13,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 14,
+          "steal_amount_s": 7,
+          "benefit": 98,
+          "cost": 15.0,
+          "margin": 83.0,
+          "decision": false
+        },
+        {
+          "time": 14,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 12,
+          "steal_amount_s": 6,
+          "benefit": 72,
+          "cost": 15.0,
+          "margin": 57.0,
+          "decision": false
+        },
+        {
+          "time": 14,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 12,
+          "steal_amount_s": 6,
+          "benefit": 72,
+          "cost": 15.0,
+          "margin": 57.0,
+          "decision": false
+        },
+        {
+          "time": 15,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 10,
+          "steal_amount_s": 5,
+          "benefit": 50,
+          "cost": 15.0,
+          "margin": 35.0,
+          "decision": false
+        },
+        {
+          "time": 15,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 10,
+          "steal_amount_s": 5,
+          "benefit": 50,
+          "cost": 15.0,
+          "margin": 35.0,
+          "decision": false
+        },
+        {
+          "time": 16,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 8,
+          "steal_amount_s": 4,
+          "benefit": 32,
+          "cost": 15.0,
+          "margin": 17.0,
+          "decision": false
+        },
+        {
+          "time": 16,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 8,
+          "steal_amount_s": 4,
+          "benefit": 32,
+          "cost": 15.0,
+          "margin": 17.0,
+          "decision": false
+        },
+        {
+          "time": 17,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 6,
+          "steal_amount_s": 3,
+          "benefit": 18,
+          "cost": 15.0,
+          "margin": 3.0,
+          "decision": false
+        },
+        {
+          "time": 17,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 6,
+          "steal_amount_s": 3,
+          "benefit": 18,
+          "cost": 15.0,
+          "margin": 3.0,
+          "decision": false
+        },
+        {
+          "time": 18,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 4,
+          "steal_amount_s": 2,
+          "benefit": 8,
+          "cost": 15.0,
+          "margin": -7.0,
+          "decision": false
+        },
+        {
+          "time": 18,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 4,
+          "steal_amount_s": 2,
+          "benefit": 8,
+          "cost": 15.0,
+          "margin": -7.0,
+          "decision": false
+        },
+        {
+          "time": 19,
+          "idle_worker": 2,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 15.0,
+          "margin": -13.0,
+          "decision": false
+        },
+        {
+          "time": 19,
+          "idle_worker": 3,
+          "victim_worker": 0,
+          "job_id": "batch_2",
+          "victim_load_x": 2,
+          "steal_amount_s": 1,
+          "benefit": 2,
+          "cost": 15.0,
+          "margin": -13.0,
+          "decision": false
+        },
+        {
+          "time": 20,
+          "idle_worker": 0,
+          "victim_worker": 1,
+          "job_id": "train_model",
+          "victim_load_x": -22,
+          "steal_amount_s": -11,
+          "benefit": 242,
+          "cost": 25.0,
+          "margin": 217.0,
+          "decision": false
+        },
+        {
+          "time": 20,
+          "idle_worker": 2,
+          "victim_worker": 1,
+          "job_id": "train_model",
+          "victim_load_x": -22,
+          "steal_amount_s": -11,
+          "benefit": 242,
+          "cost": 25.0,
+          "margin": 217.0,
+          "decision": false
+        },
+        {
+          "time": 20,
+          "idle_worker": 3,
+          "victim_worker": 1,
+          "job_id": "train_model",
+          "victim_load_x": -22,
+          "steal_amount_s": -11,
+          "benefit": 242,
+          "cost": 25.0,
+          "margin": 217.0,
+          "decision": false
+        }
+      ],
+      "decision_summary": {
+        "opportunities": 35,
+        "accepted": 2,
+        "rejected": 33,
+        "bad_accepts": 0,
+        "bad_rejects": 28,
+        "avg_benefit": 182.17142857142858,
+        "avg_cost": 17.285714285714285,
+        "avg_margin": 164.88571428571427,
+        "accept_rate": 0.05714285714285714
+      },
+      "potential_log": [
+        {
+          "time": 0,
+          "phi": 626.0,
+          "migration_cost_so_far": 25,
+          "avg_migration_cost_per_time": 25.0,
+          "psi": 651.0,
+          "loads": [
+            29,
+            19,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 1,
+          "phi": 724.75,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 20.0,
+          "psi": 744.75,
+          "loads": [
+            27,
+            34,
+            10,
+            0
+          ]
+        },
+        {
+          "time": 2,
+          "phi": 516.75,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 13.333333333333334,
+          "psi": 530.0833333333334,
+          "loads": [
+            25,
+            30,
+            18,
+            0
+          ]
+        },
+        {
+          "time": 3,
+          "phi": 404.75,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 10.0,
+          "psi": 414.75,
+          "loads": [
+            23,
+            26,
+            16,
+            0
+          ]
+        },
+        {
+          "time": 4,
+          "phi": 308.75,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 8.0,
+          "psi": 316.75,
+          "loads": [
+            21,
+            22,
+            14,
+            0
+          ]
+        },
+        {
+          "time": 5,
+          "phi": 228.75,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 6.666666666666667,
+          "psi": 235.41666666666666,
+          "loads": [
+            19,
+            18,
+            12,
+            0
+          ]
+        },
+        {
+          "time": 6,
+          "phi": 164.75,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 5.714285714285714,
+          "psi": 170.46428571428572,
+          "loads": [
+            17,
+            14,
+            10,
+            0
+          ]
+        },
+        {
+          "time": 7,
+          "phi": 116.75,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 5.0,
+          "psi": 121.75,
+          "loads": [
+            15,
+            10,
+            8,
+            0
+          ]
+        },
+        {
+          "time": 8,
+          "phi": 84.75,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 4.444444444444445,
+          "psi": 89.19444444444444,
+          "loads": [
+            13,
+            6,
+            6,
+            0
+          ]
+        },
+        {
+          "time": 9,
+          "phi": 68.75,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 4.0,
+          "psi": 72.75,
+          "loads": [
+            11,
+            2,
+            4,
+            0
+          ]
+        },
+        {
+          "time": 10,
+          "phi": 83.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 3.6363636363636362,
+          "psi": 86.63636363636364,
+          "loads": [
+            10,
+            -2,
+            2,
+            0
+          ]
+        },
+        {
+          "time": 11,
+          "phi": 291.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 3.3333333333333335,
+          "psi": 294.3333333333333,
+          "loads": [
+            18,
+            -4,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 12,
+          "phi": 267.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 3.076923076923077,
+          "psi": 270.0769230769231,
+          "loads": [
+            16,
+            -6,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 13,
+          "phi": 251.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 2.857142857142857,
+          "psi": 253.85714285714286,
+          "loads": [
+            14,
+            -8,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 14,
+          "phi": 243.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 2.6666666666666665,
+          "psi": 245.66666666666666,
+          "loads": [
+            12,
+            -10,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 15,
+          "phi": 243.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 2.5,
+          "psi": 245.5,
+          "loads": [
+            10,
+            -12,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 16,
+          "phi": 251.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 2.3529411764705883,
+          "psi": 253.35294117647058,
+          "loads": [
+            8,
+            -14,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 17,
+          "phi": 267.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 2.2222222222222223,
+          "psi": 269.22222222222223,
+          "loads": [
+            6,
+            -16,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 18,
+          "phi": 291.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 2.1052631578947367,
+          "psi": 293.10526315789474,
+          "loads": [
+            4,
+            -18,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 19,
+          "phi": 323.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 2.0,
+          "psi": 325.0,
+          "loads": [
+            2,
+            -20,
+            0,
+            0
+          ]
+        },
+        {
+          "time": 20,
+          "phi": 363.0,
+          "migration_cost_so_far": 40,
+          "avg_migration_cost_per_time": 1.9047619047619047,
+          "psi": 364.9047619047619,
+          "loads": [
+            0,
+            -22,
+            0,
+            0
+          ]
+        }
+      ],
+      "avg_potential": 291.32142857142856,
+      "max_potential": 724.75,
+      "final_potential": 363.0,
+      "avg_migration_cost_per_time": 1.9047619047619047,
+      "avg_cost_aware_potential": 293.2261904761905,
+      "avg_timestep_cost_aware_potential": 297.5506832471671
+    }
+  }
+}

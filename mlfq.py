@@ -9,7 +9,6 @@ class MLFQ:
         self.job_level = {}
         self.time_used_at_level = {}
         self.current_epoch = 0
-        self.preemption_cost_caused = 0
 
     def job_arrival(self, job, time_step):
         # new job goes into highest priority queue
@@ -33,6 +32,11 @@ class MLFQ:
         # boost if it is time to boost
         if self.boost_interval > 0 and time_step > 0 and time_step % self.boost_interval == 0:
             self.boost_all(available_jobs)
+        
+        # Ensure all available jobs are registered with this scheduler
+        for job in available_jobs:
+            if job["id"] not in self.job_level:
+                self.job_arrival(job, time_step)
 
         available_ids = {job["id"] for job in available_jobs}
 
@@ -79,4 +83,3 @@ class MLFQ:
             level = self.job_level[job["id"]]
             self.queues[level].append(job)
             self.time_used_at_level[job["id"]] = 0
-        self.preemption_cost_caused += job["preemption_cost"]

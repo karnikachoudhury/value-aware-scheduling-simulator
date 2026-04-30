@@ -4,7 +4,7 @@ class FIFO:
     name = "FIFO"
     
     def __init__(self):
-        self.preemption_cost_caused = 0
+        pass
     
     def job_arrival(self, job, time_step):
         pass
@@ -24,4 +24,4 @@ class FIFO:
         pass
 
     def job_preempted(self, job, time_step):
-        self.preemption_cost_caused += job["preemption_cost"]
+        pass

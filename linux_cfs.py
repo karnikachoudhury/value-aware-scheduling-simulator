@@ -1,7 +1,7 @@
 class LinuxCFS:
     name = "Linux CFS"
     def __init__(self):
-        self.preemption_cost_caused = 0
+        pass
 
     def select_job(self, available_jobs, current_job, time_step):
         if not available_jobs:
@@ -20,4 +20,4 @@ class LinuxCFS:
         pass
     
     def job_preempted(self, job, time_step):
-        self.preemption_cost_caused += job["preemption_cost"]
+        pass

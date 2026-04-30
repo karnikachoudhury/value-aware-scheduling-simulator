@@ -1,0 +1,8 @@
+x_victim_load,s_stolen_work,c_migration_cost,lambda,benefit_2s_x_minus_s,weighted_cost_lambda_c,margin_benefit_minus_cost,phi_before,phi_after,phi_reduction,psi_before,psi_after,psi_change_after_minus_before,formula_says_steal_helps,actual_steal_helps,matches_lemma
+40,10,0,1.0,600,0.0,600.0,1200.0,600.0,600.0,1200.0,600.0,-600.0,True,True,True
+40,10,100,1.0,600,100.0,500.0,1200.0,600.0,600.0,1200.0,700.0,-500.0,True,True,True
+40,10,300,1.0,600,300.0,300.0,1200.0,600.0,600.0,1200.0,900.0,-300.0,True,True,True
+40,10,599,1.0,600,599.0,1.0,1200.0,600.0,600.0,1200.0,1199.0,-1.0,True,True,True
+40,10,600,1.0,600,600.0,0.0,1200.0,600.0,600.0,1200.0,1200.0,0.0,False,False,True
+40,10,700,1.0,600,700.0,-100.0,1200.0,600.0,600.0,1200.0,1300.0,100.0,False,False,True
+40,10,1000,1.0,600,1000.0,-400.0,1200.0,600.0,600.0,1200.0,1600.0,400.0,False,False,True

@@ -6,7 +6,6 @@ class RoundRobin:
         self.quantum = quantum
         self.queue = deque()
         self.time_used = {}
-        self.preemption_cost_caused = 0
     
     def job_arrival(self, job, time_step):
         if job["id"] not in self.time_used:
@@ -15,6 +14,11 @@ class RoundRobin:
     
     def select_job(self, available_jobs, current_job, time_step):
         available_ids = {job["id"] for job in available_jobs}
+        
+        # Ensure all available jobs are registered with this scheduler
+        for job in available_jobs:
+            if job["id"] not in self.time_used:
+                self.job_arrival(job, time_step)
 
         # clean finished jobs
         while self.queue and (self.queue[0]["id"] not in available_ids):
@@ -49,4 +53,4 @@ class RoundRobin:
         self.time_used[job["id"]] = 0
     
     def job_preempted(self, job, time_step):
-        self.preemption_cost_caused += job["preemption_cost"]
+        pass
