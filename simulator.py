@@ -4,9 +4,8 @@ from work_stealing_strategies import AlwaysStealing
 import random
 import math
 
-
+# worker load is queued work and remaining work of this job
 def compute_worker_load(worker):
-    # worker load is queued work and remaining work of this job
     queue_load = worker.get_queue_info()["total_work"]
 
     current_load = 0
@@ -15,7 +14,7 @@ def compute_worker_load(worker):
 
     return queue_load + current_load
 
-
+# calculate the summation potential thing from the paper
 def compute_imbalance_potential(workers):
     loads = [compute_worker_load(w) for w in workers]
     if not loads:
@@ -24,19 +23,19 @@ def compute_imbalance_potential(workers):
     avg_load = sum(loads) / len(loads)
     return sum((load - avg_load) ** 2 for load in loads)
 
-
+# normalize cost aware potential function objective
 def compute_normalized_phi(phi, total_initial_work):
     if total_initial_work <= 0:
         return 0
     return phi / (total_initial_work ** 2)
 
-
+# notmralize migration cost
 def compute_normalized_cost(total_migration_cost, total_possible_value):
     if total_possible_value <= 0:
         return 0
     return total_migration_cost / total_possible_value
 
-
+# initialize fields for each job
 def prepare_jobs(jobs):
     sim_jobs = []
     for job in jobs:
@@ -63,7 +62,7 @@ def prepare_jobs(jobs):
         })
     return sim_jobs
 
-
+# choose job distribution strategy
 def distribute_job(workers, job, strategy="random", time_step=0):
     if strategy == "round_robin":
         worker = workers[len(job["id"]) % len(workers)]
@@ -81,7 +80,7 @@ def distribute_job(workers, job, strategy="random", time_step=0):
     worker.assign_job(job)
     return worker
 
-
+# decision logs
 def summarize_decision_log(decision_log):
     if not decision_log:
         return {
@@ -114,12 +113,11 @@ def summarize_decision_log(decision_log):
         "accept_rate": len(accepted) / n,
     }
 
-
+# only include job if it has work left to do
 def clean_completed_jobs_from_worker(worker):
-    """Remove completed jobs from queue so they cannot run below zero."""
     worker.local_queue = [job for job in worker.local_queue if job["remaining_work"] > 0]
 
-
+# for experiment that goes across timestamps with migration costs of the jobs
 def run_simulation_simple(jobs, scheduler, verbose=True):
     sim_jobs = prepare_jobs(jobs)
 
@@ -211,7 +209,7 @@ def run_simulation_simple(jobs, scheduler, verbose=True):
         time_step,
     )
 
-
+# for experiment with varying migration costs and work stealing
 def run_simulation(
     jobs,
     schedulers,
@@ -263,7 +261,7 @@ def run_simulation(
             seen_arrivals.add(job["id"])
             distribute_job(workers, job, strategy=job_distribution, time_step=time_step)
 
-        # Tracks only the context-switch overhead added during this timestep.
+        
         context_switch_overhead_this_step = 0
 
         for worker in workers:

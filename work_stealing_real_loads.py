@@ -92,7 +92,6 @@ def reconstruct_completed_value_over_time(result):
 
             value = job.get("effective_importance", job.get("importance", 0))
 
-            # Clamp to range just in case.
             t = min(max(int(completion_time), 0), total_time)
             values_by_time[t] += value
 
@@ -104,7 +103,6 @@ def reconstruct_completed_value_over_time(result):
 
         return list(range(total_time + 1)), cumulative
 
-    # Fallback: if completed job details are not returned, show only final value.
     return [0, total_time], [0, result.get("value_completed", 0)]
 
 

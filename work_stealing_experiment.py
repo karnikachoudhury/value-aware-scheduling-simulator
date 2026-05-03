@@ -80,7 +80,6 @@ def run_experiment(workload_name, jobs, migration_costs, num_workers=4, lambda_p
             if strategy_name == "Cost-Aware Stealing":
                 print_cost_aware_decision_table(sim_results)
 
-        print()
 
     return results
 
