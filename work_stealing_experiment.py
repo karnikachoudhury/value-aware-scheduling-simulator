@@ -106,7 +106,7 @@ def plot_results(all_results, migration_costs, output_file="work_stealing_experi
     workloads = list(all_results.keys())
     num_workloads = len(workloads)
 
-    num_cols = 4
+    num_cols = 3
     fig, axes = plt.subplots(
         num_workloads,
         num_cols,
@@ -118,7 +118,6 @@ def plot_results(all_results, migration_costs, output_file="work_stealing_experi
         axes = axes.reshape(1, -1)
 
     global_value = []
-    global_steals = []
     global_makespan = []
     global_potential = []
 
@@ -126,7 +125,6 @@ def plot_results(all_results, migration_costs, output_file="work_stealing_experi
         for strategy_name in strategies:
             for result in workload_results[strategy_name]:
                 global_value.append(result["value_completed"])
-                global_steals.append(result["total_steals"])
                 global_makespan.append(result["total_time"])
                 global_potential.append(result.get("avg_normalized_cost_aware_potential", result.get("avg_potential", 0)))
 
@@ -152,12 +150,6 @@ def plot_results(all_results, migration_costs, output_file="work_stealing_experi
             "title": "Value",
             "ylabel": "Total Value Completed",
             "ylim": safe_ylim(global_value, allow_negative=True),
-        },
-        {
-            "key": "total_steals",
-            "title": "Steals",
-            "ylabel": "Number of Steals",
-            "ylim": safe_ylim(global_steals),
         },
         {
             "key": "total_time",

@@ -227,9 +227,9 @@ def main():
     job_distribution = "one"
 
     workloads = [
-        # ("Database", make_database_workload()),
-        # ("Web", make_web_workload()),
-        ("ML", make_ml_workload()),
+        ("Database", make_database_workload()),
+        ("Web", make_web_workload()),
+        # ("ML", make_ml_workload()),
     ]
 
     all_results = {}
